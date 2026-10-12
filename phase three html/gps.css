@@ -1,0 +1,3 @@
+.gps-button { font: inherit; }
+.gps-button:disabled { cursor: wait; opacity: .7; }
+.gps-status { min-height: 24px; margin: 18px 0 0 !important; color: #355146; font-size: 14px; }

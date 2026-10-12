@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#005a52" />
+    <title>Kwa Mam Thandi | Daily It Msholozi</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="gps.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topbar"><a href="#menu" class="search" aria-label="Search menu">⌕ <span>Search Kota, grill or drink</span></a></div>
+      <nav class="nav shell"><a class="logo" href="#top"><img src="../assets/mamthandi-kota.png" alt="Daily It Msholozi Kwa Mam Thandi" /></a><button class="menu-toggle" aria-label="Open navigation">☰</button><div class="nav-links"><a class="active" href="#top">Home</a><a href="#about">About us</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#location">Find us</a></div><button class="basket" id="basket">🛒 <span id="basket-count">0</span></button></nav>
+    </header>
+
+    <main id="top">
+      <section class="hero"><div class="hero-overlay"><div class="shell hero-content"><div class="eyebrow">KASI FLAVOUR • BRAAMFONTEIN</div><h1>Big kota energy.<br><em>Made with love.</em></h1><p>Traditional township favourites, fresh off the grill and delivered warm.</p><a class="button gold" href="#menu">Explore the menu</a></div></div></section>
+
+      <section class="intro shell" id="about"><div><div class="eyebrow green">THE MAM THANDI WAY</div><h2>Real food for<br>real people.</h2></div><p>From the first crunch of slap chips to the last bite of boerewors, we celebrate the warmth, generosity and unmistakable flavour of South African street food.</p></section>
+
+      <section class="menu-section" id="menu"><div class="shell"><div class="section-heading"><div><div class="eyebrow">ORDER TODAY</div><h2>Our menu</h2></div><a href="#location" class="outline-button">Contact info</a></div><div class="filters" role="tablist"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="kotas">Kotas</button><button class="filter" data-filter="grill">Braai grill</button><button class="filter" data-filter="drinks">Drinks</button><button class="filter" data-filter="dessert">Sweet treats</button></div><div class="cards" id="cards"></div></div></section>
+
+      <section class="banner" id="gallery"><div class="shell"><div><div class="eyebrow">FROM THE BRAAI</div><h2>Smoke, spice<br>and township pride.</h2></div><a href="#menu" class="button gold">Order a feast</a></div></section>
+
+      <section class="location shell" id="location"><div class="location-card"><div class="eyebrow green">COME SAY HELLO</div><h2>Kwa Mam Thandi,<br>Braamfontein</h2><p>Jorissen Street, Braamfontein<br>Johannesburg, 2000</p><p><strong>Open daily:</strong> 10:00 – 22:00</p><div class="location-actions"><a class="button dark" href="tel:+27114031134">Call us</a><button class="outline-button dark-outline gps-button" id="gps-button">◎ Use my live location</button><a class="outline-button dark-outline" id="directions" href="https://www.google.com/maps/dir/?api=1&destination=Jorissen+Street,+Braamfontein,+Johannesburg" target="_blank" rel="noreferrer">Get directions</a></div><p class="gps-status" id="gps-status" aria-live="polite">Use your location to see how far you are from us.</p></div><div class="map-art"><span id="map-pin">📍</span><b>KWA MAM THANDI</b><i id="map-detail">Jorissen St</i></div></section>
+    </main>
+
+    <footer><div class="shell footer-grid"><div><img class="footer-logo" src="../assets/mamthandi-kota.png" alt="Kwa Mam Thandi" /><p>Daily it Msholozi. Made with love in Johannesburg.</p></div><div><h3>Popular pages</h3><a href="#top">Home</a><a href="#about">About us</a><a href="#menu">Menu</a><a href="#location">Contact us</a></div><div><h3>Popular picks</h3><a href="#menu">Kota classic</a><a href="#menu">Boerewors roll</a><a href="#menu">Braai chicken & pap</a><a href="#menu">Koeksisters</a></div></div><div class="copyright">© 2026 Kwa Mam Thandi • Daily It Msholozi</div></footer>
+    <div class="toast" id="toast" role="status">Added to your order</div>
+    <script src="script.js"></script>
+    <script src="gps.js"></script>
+  </body>
+</html>
